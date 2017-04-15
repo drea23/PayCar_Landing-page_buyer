@@ -4,22 +4,50 @@
  * Feel free to change them and create your own
  * ------------------------------------- */
 
-// Paddings
-.padded {
-  padding-top: 5em;
-  padding-bottom: 5em;
+
+// Responsive
+
+/* Extra Small Devices, Phones */
+@media (max-width : 480px){
+  h1 {font-size: 34px;}
+  h2 {font-size: 22px;}
+  h3 {font-size: 18px;}
+  h4 {font-size: 16px;}
+  p {font-size: 16px;}
+  small {font-size: 11px;}
 }
 
-// Backgrounds
-.bg-text {
-  background: #4a4a4a;
+// /* Extra Small Devices, Phones */
+// @media (min-width : 481px) and (max-width : 768px) {
+
+// }
+
+/* Small Devices, Tablets */
+@media (min-width : 481px) and (max-width : 992px) {
+  h1 {font-size: 45px;}
+  h2 {font-size: 34px;}
+  h3 {font-size: 22px;}
+  h4 {font-size: 18px;}
+  p {font-size: 16px;}
+  small {font-size: 11px;}
 }
-.bg-email {
-  background: #aeaeae;
+
+/* Medium Devices, Desktops */
+@media (min-width : 993px) and (max-width : 1200px) {
+  h1 {font-size: 63px;}
+  h2 {font-size: 45px;}
+  h3 {font-size: 34px;}
+  h4 {font-size: 22px;}
+  p {font-size: 16px;}
+  small {font-size: 11px;}
 }
-.bg-twitter {
-  background: #00a3e1;
-}
-.bg-facebook {
-  background: #3b5998;
+
+/* Large Devices, Wide Screens */
+@media (min-width: 1200px) {
+  h1 {font-size: 63px;}
+  h2 {font-size: 45px;}
+  h3 {font-size: 34px;}
+  h4 {font-size: 22px;}
+  p {font-size: 16px;}
+  small {font-size: 11px;}
 }
