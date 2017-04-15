@@ -1,0 +1,89 @@
+.banner {
+ background-image: image-url('paycar-banner.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+
+  input {
+    margin-top:1em;
+    text-transform: uppercase;
+  }
+
+  small {
+    text-transform: uppercase;
+  }
+
+  .round {
+    border-radius: 60px;
+    background: white;
+    color: $brand-color-blue;
+  }
+
+  .inside-banner {
+    display: flex;
+    justify-content:
+    space-between;
+    align-items:
+    center;
+    height: 100vh;
+  }
+  .range-btn {
+    display:flex;
+    flex-direction: column;
+    max-width: 160px;
+    margin-top: 30px;
+  }
+
+  .inside-range-btn {
+      align-self: center;
+  }
+}
+
+.btn-large {
+  font-size: 16px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.btn-banner {
+  color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+.btn-banner:hover,
+.btn-banner:focus,
+.btn-banner:active,
+.btn-banner.active,
+.open .dropdown-toggle.btn-banner {
+  color: #fff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+
+.btn {
+  padding: 14px 24px;
+  border: 0 none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+  outline: 0 none;
+}
+
+.btn-banner {
+  background: #0099cc;
+  color: #ffffff;
+}
+.btn-banner:hover, .btn-banner:focus, .btn-banner:active, .btn-banner.active, .open > .dropdown-toggle.btn-banner {
+  background: #33a6cc;
+}
+.btn-banner:active, .btn-banner.active {
+  background: #007299;
+  box-shadow: none;
+}
