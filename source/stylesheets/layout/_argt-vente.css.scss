@@ -1,0 +1,35 @@
+.argt-vente-statique {
+  text-align: center;
+  padding-bottom: 1em;
+
+  .argt1{
+    background-image: image-url('argt1.png');
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .argt2{
+    background-image: image-url('argt2.png');
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .argt3{
+    background-image: image-url('argt3.png');
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  h4 {
+    font-weight: 800;
+    color: $brand-color-green;
+  }
+
+}
+
+.argt-vente-dynamique {
+  padding-bottom: 1em;
+}
