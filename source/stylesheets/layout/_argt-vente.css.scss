@@ -1,24 +1,43 @@
-.argt-vente-statique {
+.argt-vente-statique, .steps-statique {
   text-align: center;
   padding-bottom: 1em;
 
   .argt1{
     background-image: image-url('argt1.png');
-    height: 200px;
+    height: 150px;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .argt2{
     background-image: image-url('argt2.png');
-    height: 200px;
+    height: 150px;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .argt3{
     background-image: image-url('argt3.png');
-    height: 200px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .step1{
+    background-image: image-url('step1.png');
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+  .step2{
+    background-image: image-url('step2.png');
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .step3{
+    background-image: image-url('step3.png');
+    height: 150px;
     background-position: center;
     background-repeat: no-repeat;
   }
