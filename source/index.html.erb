@@ -1,14 +1,15 @@
 <!-- banner -->
 <div class="banner">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-8 col-md- ol-lg-6 center">
-        <div class="visible-xs" style="margin-top: 1em"></div>
+  <div class="container" style="overflow: hidden;">
+    <div class="row" style=" position: relative;">
+      <div class="col-xs-12 col-sm-8 col-md-6 ol-lg-6 center">
+        <div class="visible-xs" style="margin-top: 3em"></div>
         <div class="inside-banner">
           <div>
             <div>
-              <h1><strong>Oubliez
-              les allers-retour à la banque,</strong></h1>
+              <h1>
+              <strong>Oubliez les allers-retour à la banque,</strong>
+              </h1>
               <h3>Payez votre voiture d’occasion avec</h3>
               <img src="images/paycar.png" alt="logo PayCar blanc">
             </div>
@@ -23,12 +24,30 @@
           </div>
         </div>
       </div>
+      <div class="col-xs-12 text-center" style=" position: absolute; margin-top: 95%;">
+        <a href="#anchor">
+          <img src="images/arrow.png" class="img-anchor text-center" alt="arrow to next menu">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- logo banques partenaires-->
+<div style="background-color: #F0F0F0;">
+  <div class="container sponsor-bank">
+    <div class="row text-center">
+      <div class="col-sm-offset-2 col-sm-2 col-md-offset-2 col-md-2 small1"><small>Recommandé par</small></div>
+      <div class="col-sm-5 col-md-6">
+        <img src="images/logo-credit-mutuel-arkea.png" alt="Logo crédit mutuel">
+        <small class="small2">&</small>
+        <img src="images/logo-bnp-paribas.png" alt="Logo BNP Paribas">
+      </div>
     </div>
   </div>
 </div>
 <!-- arguments de vente statique-->
-<div class="container">
-  <div class="row argt-vente-statique">
+<div id="anchor" class="container">
+  <div class="row row-margin argt-vente-statique">
     <div class="space-around col-xs-12 col-sm-6 col-md-4">
       <div class="argt1"></div>
       <h4>100% en ligne</h4>
@@ -42,14 +61,13 @@
     <div class="space-around col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0">
       <div class="argt3"></div>
       <h4>Sans engagement</h4>
-      <p>Changement de plan?<br>Annulez ou modifiez le montant à la dernière minute</p>
+      <p>Changement de plan?<br>Annulez ou modifiez le montant à la dernière minute.</p>
     </div>
   </div>
 </div>
-
 <!-- arguments de vente mobile-->
 <!-- <div class="container hidden-md hidden-lg">
-  <div class="row argt-vente-dynamique">
+  <div class="row row-margin argt-vente-dynamique">
     <div class="carousel carousel--cell-selector" data-flickity="{ &quot;cellSelector&quot;: &quot;.carousel-cell&quot;}">
       <div class="carousel-cell">
         <div class="cell-1"></div>
@@ -69,20 +87,22 @@
     </div>
   </div>
 </div> -->
-
 <!-- advice -->
-<div class="advice" style="background-color: #F2F2F2;height: 300px;">
+<div class="advice">
   <div class="container">
-    <div class="row">
+    <div class="row row-margin">
       <div class="col-xs-12">
-        <h3 style="font-weight: 800">Ils sont convaincus et ils en parlent!</h3>
+        <h3>Ils sont convaincus et ils en parlent!</h3>
+
+        <iframe id='AV_widget_iframe' frameBorder="0" width="100%" height="100%" src="//cl.avis-verifies.com/fr/cache/0/3/0/030027c1-b1bf-1d64-e1f0-05dc22523c57/widget4/030027c1-b1bf-1d64-e1f0-05dc22523c57horizontal_index.html"></iframe>
+
       </div>
     </div>
   </div>
 </div>
 <!-- steps -->
 <div class="container steps-statique">
-  <div class="row">
+  <div class="row row-margin">
     <div class="space-around col-xs-12 col-sm-6 col-md-4">
       <div class="step1"></div>
       <h4>Inscrivez-vous gratuitement</h4>
@@ -91,112 +111,112 @@
     <div class="space-around col-xs-12 col-sm-6 col-md-4">
       <div class="step2"></div>
       <h4>Virez vos fonds sur votre compte PayCar</h4>
-      <p>Votre vendeur peut vérifier que votre compte est crédité: vous gardez le contrôle sur votre argent.</p>
+      <p>Votre vendeur peut vérifier que votre compte est crédité : vous gardez le contrôle sur votre argent.</p>
     </div>
     <div class="space-around col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0">
       <div class="step3"></div>
       <h4>Payez votre nouvelle voiture</h4>
-      <p>Le jour J, virer l'argent à votre vendeur en toute sécurité directement sur son compte. Il vous donne les clés.</p>
+      <p>Le jour J, virez l'argent à votre vendeur en toute sécurité directement sur son compte. Il vous donne les clés.</p>
     </div>
   </div>
-  <div class="row steps">
+  <div class="row row-margin steps">
     <input class="btn btn-steps btn-large round" type="button" value="je découvre">
   </div>
 </div>
 <!-- negociateur -->
-<div class="negociator" style="background-image: linear-gradient(-180deg, #70C9E9 9%, #3D98CF 100%); height: 300px">
+<div class="negociator">
   <div class="container">
-    <div class="row">
-      <div class="col-xs-6">
-        <h2>Bon négociateur?</h2>
+    <div class="row row-margin">
+      <div class="col-xs-12 col-sm-6">
+        <h2>Bon négociateur ?</h2>
         <p>S’il vous reste des fonds après la transaction, rapatriez-les gratuitement en 1 clic.</p>
       </div>
-      <div class="col-xs-6">
-        <img src="images/smile.png" alt="clin d'oeil" height="200px">
+      <div class="col-xs-12 col-sm-6">
+        <div class="image-smile"></div>
       </div>
     </div>
   </div>
 </div>
 <!-- gratuit pour acheteur -->
 <div class="container">
-  <div class="row">
-    <div class="col-xs-6">
+  <div class="row row-margin free-for-buyer">
+    <div class="col-xs-12 col-sm-6">
       <h2>Gratuit pour l’acheteur</h2>
-      <p>(quelque soit sa banque)</p>
-      <p>Une commission de 29€ prélevée côté vendeur uniquement en cas de transaction</p>
+      <p class="first-child">(quelle que soit sa banque)</p>
+      <p>Une commission de 29€ prélevée côté vendeur uniquement en cas de transaction.</p>
     </div>
-    <div class="col-xs-6">
-      <div class="inside-range-btn">
-        <small>je m'inscris,</small>
+    <div class="col-xs-12 col-sm-6 text-center">
+      <div class="inside-range-btn btn-buyer">
+        <small>JE M'INSCRIS</small>
       </div>
       <input class="btn btn-steps btn-large round" type="button" value="j'invite mon vendeur">
     </div>
   </div>
-  <div class="row">
-    <div class="col-xs-2">
-      <div class="logo-bank-1" style="height: 100px; width: 150px; background-color: green;">
+  <div class="row row-margin text-center" style="margin:5em 0 1em 0;">
+    <div class="col-xs-6 col-sm-4 col-md-2">
+      <div class="logo-bank">
       </div>
     </div>
-    <div class="col-xs-2">
-      <div class="logo-bank-1" style="height: 100px; width: 150px; background-color: red;">
+    <div class="col-xs-6 col-sm-4 col-md-2">
+      <div class="logo-bank">
       </div>
     </div>
-    <div class="col-xs-2">
-      <div class="logo-bank-1" style="height: 100px; width: 150px; background-color: blue;">
+    <div class="col-xs-6 col-sm-4 col-md-2">
+      <div class="logo-bank">
       </div>
     </div>
-    <div class="col-xs-2">
-      <div class="logo-bank-1" style="height: 100px; width: 150px; background-color: yellow;">
+    <div class="col-xs-6 col-sm-4 col-md-2">
+      <div class="logo-bank">
       </div>
     </div>
-    <div class="col-xs-2">
-      <div class="logo-bank-1" style="height: 100px; width: 150px; background-color: violet;">
+    <div class="col-xs-6 col-sm-4 col-md-2">
+      <div class="logo-bank">
       </div>
     </div>
-    <div class="col-xs-2">
-      <div class="logo-bank-1" style="height: 100px; width: 150px; background-color: purple;">
+    <div class="col-xs-6 col-sm-4 col-md-2">
+      <div class="logo-bank">
       </div>
     </div>
   </div>
 </div>
 <!-- contact -->
-<div class="contact" style="background-color: #F2F2F2;">
-  <div class="container" style="text-align: center">
-    <div class="row">
+<div class="contact text-center">
+  <div class="container">
+    <div class="row row-margin">
       <h2>Une question?</h2>
-      <div class="col-xs-5">
-        <div class="mobile" style=" margin: auto; height: 100px; width: 150px; background-color: crimson;"></div>
+      <div class="col-xs-12 col-sm-6">
+        <div class="mobile"></div>
         <h4>Appelez-nous</h4>
-        <h2>0800 123 123</h2>
+        <h3>0800 123 123</h3>
       </div>
-      <div class="col-xs-2"><p>ou</p></div>
-      <div class="col-xs-5">
-        <div class="mail" style=" margin: auto; height: 100px; width: 150px; background-color: crimson;"></div>
+      <div class="col-xs-12 col-sm-6">
+        <div class="mail"></div>
         <h4>Laissez-nous votre e-mail,<br>
         on vous recontacte</h4>
         <form class="form-inline">
           <div class="form-group">
-            <label for="email"></label>
-            <input type="email" class="form-control" id="email" placeholder="mon@email.com">
+            <div class="col-xs-10" style=" display: flex; align-items: center; margin: 0;">
+              <label for="email"></label>
+              <input type="email" class="form-control form-modif" id="email" placeholder="mon@email.com">
+              <div class="col-xs-2" style="padding-left: 0.5em">
+                <button type="submit" class="btn btn-link btn-contact">OK</button>
+              </div>
+            </div>
           </div>
-          <button type="submit" class="btn btn-link">OK</button>
         </form>
       </div>
     </div>
   </div>
   <!-- footer -->
-  <div class="footer" style="background-color: #D8D8D8; height: 300px">
-    <div class="container">
-      <div class="row">
-      <div class="col-xs-2" style="height: 100px;">
-
-        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fpaycar.fr%2F&width=200&layout=box_count&action=like&show_faces=false&share=true&height=65&appId" width="200" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-
+  <div class="footer">
+    <div class="row text-center">
+      <div class="col-xs-2 col-md-offset-3">
+        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fpaycar.fr%2F&width=200&layout=box_count&action=like&show_faces=false&share=true&height=65&appId" width="200" height="65" style="border:none; overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
       </div>
-      <div class="col-xs-2">
-        <small>PayCar 2017 ©</small><br>
-        <small>Tous droits réservés</small>
-      </div>
+      <div class="col-xs-8 col-sm-8 col-md-2">
+        <small><strong>PayCar 2017 ©</strong><br>
+        Tous droits réservés</small>
       </div>
     </div>
   </div>
+</div>
