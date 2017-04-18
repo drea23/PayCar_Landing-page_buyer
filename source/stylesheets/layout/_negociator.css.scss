@@ -1,0 +1,39 @@
+.negociator {
+  background-image: linear-gradient(-180deg, #70C9E9 9%, #3D98CF 100%);
+  height: auto;
+
+  @media (min-width : 993px) and (max-width : 1200px) {
+    display: flex;
+    align-items: center;
+  }
+  @media (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+  }
+
+  h2 {
+    font-weight:800;
+    color: white;
+  }
+
+  p{
+    color: white;
+  }
+
+  .image-smile {
+    height: 200px;
+    width: 200px;
+    background-image: image-url('smile.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    margin:0 auto;
+    @media (max-width : 480px){
+      height: 100px;
+      width: 100px;
+      margin-top:1em;
+    }
+  }
+}

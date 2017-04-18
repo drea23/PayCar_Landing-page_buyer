@@ -1,0 +1,58 @@
+.free-for-buyer {
+  @media (max-width : 480px){
+    .btn-buyer {margin-top:2.5em;}
+  }
+  @media (min-width : 481px) and (max-width : 992px) {}
+  @media (min-width : 993px) and (max-width : 1200px) {
+    display: flex;
+    align-items: center;
+  }
+  @media (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+  }
+
+  h2{
+      font-weight:800;
+      color: $brand-color-blue;
+      margin-bottom:0;
+    }
+
+  small {
+    color: $brand-color-blue;
+  }
+
+  .first-child{
+    color: $brand-color-blue;
+    margin-top:0;
+  }
+
+  .round {
+    border-radius: 60px;
+    background: $brand-color-green;
+    color: white;
+  }
+
+  .inside-banner {
+    display: flex;
+    justify-content:
+    space-between;
+    align-items:
+    center;
+    height: 100vh;
+  }
+  .range-btn {
+    display:flex;
+    flex-direction: column;
+    max-width: 160px;
+  @media (max-width : 480px) {}
+  @media (min-width : 481px) and (max-width : 992px) {margin-top: 30px;}
+  @media (min-width : 993px) and (max-width : 1200px) {margin-top: 30px;}
+  @media (min-width: 1200px) {margin-top: 30px;}
+  }
+
+  .inside-range-btn {
+    align-self: center;
+    margin-bottom: 5px;
+  }
+}
