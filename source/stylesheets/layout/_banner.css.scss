@@ -1,5 +1,4 @@
 .banner {
- background-image: image-url('paycar-banner.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,6 +13,10 @@
     transition: transform 0.6s ease-in-out;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    @media (max-width : 480px) {background-image: image-url('paycar-banner-sm.png');}
+    @media (min-width : 481px) and (max-width : 992px) {background-image: image-url('paycar-banner-sm.png');}
+    @media (min-width : 993px) and (max-width : 1200px) {background-image: image-url('paycar-banner-md.png');}
+    @media (min-width: 1200px) {background-image: image-url('paycar-banner-md.png');}
 
   img {
     @media (max-width : 480px) {width: 40%; margin-bottom: 20px;}
