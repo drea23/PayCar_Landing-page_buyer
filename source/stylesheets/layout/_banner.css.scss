@@ -24,7 +24,16 @@
     width: 30px;
     -webkit-animation: jump 1.5s ease 0s 3 normal ;
    animation: jump 1.5s ease 0s 3 normal ;
+   @media (max-width : 480px) {margin-right:2em;}
   }
+
+  .position-anchor{
+    @media (max-width : 480px) {align-self: flex-end; margin-top: -8em; text-align:right;}
+    @media (min-width : 481px) and (max-width : 992px) {align-self: flex-end; margin-top: -5em;}
+    @media (min-width : 993px) and (max-width : 1200px) {align-self: flex-end; margin-top: -5em;}
+    @media (min-width: 1200px) {align-self: flex-end; margin-top: -5em;}
+  }
+
    @-webkit-keyframes jump {
   0%{
   -webkit-transform: translateY(0);
@@ -104,6 +113,7 @@
     align-items: center;
     height: 100vh;
   }
+
   .range-btn {
     display:flex;
     flex-direction: column;
@@ -115,7 +125,7 @@
   }
 
   .inside-range-btn {
-      align-self: center;
+    align-self: center;
   }
 }
 
