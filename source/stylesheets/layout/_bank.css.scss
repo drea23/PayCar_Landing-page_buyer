@@ -1,6 +1,6 @@
 .sponsor-bank {
   .row {padding: 2em 0;}
-  .small2 {margin: 0 10px;}
+  .small2 {margin: auto 10px;}
     @media (max-width : 480px){
       img {height: 30px;}
       .small1 {margin-bottom: 10px;}
@@ -9,9 +9,24 @@
       img {height: 30px;}
       .small1 {margin-bottom: 10px;}
     }
-    @media (min-width : 993px) and (max-width : 1200px) {}
+    @media (min-width : 993px) and (max-width : 1200px) {
+      .small1 {
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        height:50px;
+        text-align:right;
+      }
+    }
     @media (min-width: 1200px) {
       img {margin-left: 1em; margin-right: 1em;}
+      .small1 {
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        height:50px;
+        text-align:right;
+}
     }
   }
 

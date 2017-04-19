@@ -1,18 +1,18 @@
 .contact {
   background-color: #F2F2F2;
 
-  h2 {
+  h3 {
     font-weight: 800;
     margin: 0 0 1.5em 0;
     color: $brand-color-blue;
   }
 
-  h3 {
+  p {
+    font-size: 34px;
     margin: 0;
     font-weight: 800;
     @media (max-width : 480px){
       margin-bottom: 1.5em;
-      font-size: 34px;
     }
 
   }
