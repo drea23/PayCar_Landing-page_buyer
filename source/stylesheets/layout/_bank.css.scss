@@ -1,5 +1,5 @@
 .sponsor-bank {
-  .row {padding: 2em 0;}
+  .row {padding: 2em 0;
   .small2 {margin: auto 10px;}
     @media (max-width : 480px){
       img {height: 30px;}
@@ -26,13 +26,21 @@
         align-items:center;
         height:50px;
         text-align:right;
-}
+      }
     }
   }
-
-.logo-bank{
-  height: 50px;
-  width: 50px;
-  background-color: green;
-  margin:0 auto 30px auto;
 }
+
+// .logo-bank-1, .logo-bank-2, .logo-bank-3, .logo-bank-4, .logo-bank-5, .logo-bank-6 {
+//     width: 100%;
+//     height: auto;
+//     background-repeat: no-repeat;
+//     background-position: center;
+//   }
+
+// // .logo-bank-1 {background-image: image-url('bank-ca.png');}
+// .logo-bank-2 {background-image: image-url('bank-barclays.png');}
+// .logo-bank-3 {background-image: image-url('bank-bnp.png');}
+// .logo-bank-4 {background-image: image-url('bank-hsbc.png');}
+// .logo-bank-5 {background-image: image-url('bank-ing.png');}
+// .logo-bank-6 {background-image: image-url('bank-sg.png');}
